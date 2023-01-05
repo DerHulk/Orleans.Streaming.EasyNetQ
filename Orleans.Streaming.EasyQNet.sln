@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orleans.Streaming.EasyQNet", "src\Orleans.Streaming.EasyQNet\Orleans.Streaming.EasyQNet.csproj", "{AC14483E-0D1C-4595-AD2A-766322BECF62}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A82FDDED-D4D8-4531-A297-C9F7431315DD}"
+	ProjectSection(SolutionItems) = preProject
+		samples\sampels.md = samples\sampels.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple.Client", "samples\Simple.Client\Simple.Client.csproj", "{52489750-4140-4FF4-942A-41F36F928945}"
 EndProject
